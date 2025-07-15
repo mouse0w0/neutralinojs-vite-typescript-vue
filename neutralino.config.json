@@ -1,0 +1,38 @@
+{
+  "applicationId": "js.neutralino.zero",
+  "version": "1.0.0",
+  "defaultMode": "window",
+  "documentRoot": "/dist/",
+  "url": "/",
+  "enableServer": true,
+  "enableNativeAPI": true,
+  "nativeAllowList": [
+    "app.*"
+  ],
+  "modes": {
+    "window": {
+      "title": "neutralinojs-vite-ts-vue",
+      "width": 800,
+      "height": 500,
+      "minWidth": 400,
+      "minHeight": 200,
+      "icon": "/dist/icon.png"
+    }
+  },
+  "cli": {
+    "binaryName": "neutralinojs-vite-ts-vue",
+    "distributionPath": "/build",
+    "resourcesPath": "/dist/",
+    "extensionsPath": "/extensions/",
+    "binaryVersion": "6.1.0",
+    "clientVersion": "6.1.0",
+    "frontendLibrary": {
+        "patchFile": "/index.html",
+        "devUrl": "http://localhost:5173",
+        "projectPath": "/",
+        "initCommand": "npm install",
+        "devCommand": "npm run vite:dev",
+        "buildCommand": "npm run vite:build"
+    }
+  }
+}
