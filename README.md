@@ -19,13 +19,19 @@ git clone https://github.com/mouse0w0/neutralinojs-vite-typescript-vue
 cd neutralinojs-vite-typescript-vue
 ```
 
-### Step 2: Install dependencies
+### Step 2: Update neu
+
+```bash
+neu update
+```
+
+### Step 3: Install dependencies
 
 ```bash
 npm install
 ```
 
-### Step 3: Running your application
+### Step 4: Running your application
 
 ```bash
 npm run dev
