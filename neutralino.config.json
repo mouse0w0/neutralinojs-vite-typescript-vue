@@ -7,7 +7,9 @@
   "enableServer": true,
   "enableNativeAPI": true,
   "nativeAllowList": [
-    "app.*"
+    "app.*", 
+    "os.*", 
+    "filesystem.*"
   ],
   "modes": {
     "window": {

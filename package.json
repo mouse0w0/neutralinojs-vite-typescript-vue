@@ -19,6 +19,7 @@
     "@vue/tsconfig": "^0.7.0",
     "typescript": "~5.8.3",
     "vite": "^7.0.4",
+    "vite-plugin-neutralino": "^1.0.3",
     "vue-tsc": "^2.2.12"
   }
 }
