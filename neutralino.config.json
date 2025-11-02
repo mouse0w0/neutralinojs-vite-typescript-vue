@@ -36,7 +36,7 @@
     "distributionPath": "/build",
     "resourcesPath": "/dist/",
     "extensionsPath": "/extensions/",
-    "binaryVersion": "6.2.0",
+    "binaryVersion": "6.3.0",
     "frontendLibrary": {
       "patchFile": "/index.html",
       "devUrl": "http://localhost:5173",
